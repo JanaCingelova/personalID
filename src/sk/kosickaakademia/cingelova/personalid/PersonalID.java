@@ -47,6 +47,8 @@ public class PersonalID {
             return false;
         if (id.charAt(4)=='3' && id.charAt(5)>'1')
             return false;
+        if (id.charAt(4)=='0' && id.charAt(5)=='0')
+            return false;
         if ((id.charAt(2)=='0' || id.charAt(2)=='5') && id.charAt(3)=='2' && id.charAt(4)>'2')
             return false;
         if ((id.charAt(3)=='4'|| id.charAt(3)!='6'|| id.charAt(3)!='9') && id.charAt(4)!='3' && id.charAt(5)!='1')
